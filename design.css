@@ -1,8 +1,63 @@
-body{
-    background-color: rgb(218, 138, 221);
+@font-face {
+    font-family: 'Pixelfont';
+    src: url('./assets/Pixeldont.woff')format('woff'), url('./assets/Pixelfont.woff2')format('woff2');
 }
 
-h1{
-    color:rgb(237, 215, 127);
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Prevents scrolling Some browsers use html as the scrollable container,Some use body as the scrollable containerSetting both ensures no scrollbars appear in any brows*/
 }
+
+body{
+    background-image: url("./assets/night-sky-background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+.Year{
+    position: relative;
+    top: 15px;
+    color:rgb(125, 14, 152);
+    text-align: center;
+    font-family: 'Pixelfont';
+}
+
+.Date{
+    font-size: 20px;
+    color:rgb(170, 100, 173);
+    text-align: center;
+    font-family: 'Pixelfont';
+}
+
+.Day{
+    font-size: 20px;
+    color:rgb(170, 100, 173);
+    text-align: center;
+    font-family: 'Pixelfont';
+    position: relative;
+    bottom: 10px;
+}
+
+
+
+.Cat{
+    position: relative;
+    right: 10px;
+    top: 20px; 
+    padding: 1px;
+}
+
+.Clock{
+    bottom:135px;
+    left:100px;
+    font-size:25px;
+    position: relative;
+    color:rgb(170, 100, 173);
+    text-align: center;
+    font-family: 'Pixelfont';
+}
+
+
 
