@@ -65,8 +65,9 @@ body{
 }
 
 .Clock{
+    display: flex;
     bottom:135px;
-    left:100px;
+    left:230px;
     font-size:25px;
     position: relative;
     color:rgb(170, 100, 173);
@@ -74,5 +75,8 @@ body{
     font-family: 'Pixelfont';
 }
 
+#Second{
+    min-width: 300px;
+}
 
 
