@@ -15,20 +15,35 @@ body{
     background-repeat: no-repeat;
 }
 
-
+#Backbutton{
+    display: inline-block;
+    vertical-align: middle; /* Aligns with text baseline */
+    height: 50px; /* Or your desired size */
+    margin-right: 83px;
+}
 .Year{
+    display:flex;
     position: relative;
-    top: 15px;
-    color:rgb(125, 14, 152);
-    text-align: center;
+    top: 20px;
+    align-items: center;
+}
+
+#Year{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
     font-family: 'Pixelfont';
+    font-size: 32px;
+    color:rgb(125, 14, 152);
 }
 
 .Date{
+    position: relative;
     font-size: 20px;
     color:rgb(170, 100, 173);
     text-align: center;
     font-family: 'Pixelfont';
+    padding:0%;
 }
 
 .Day{

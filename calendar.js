@@ -23,6 +23,7 @@ function Makecalendar(){
         document.getElementById("cat").src="./assets/sleepingcat.gif";
         document.querySelector(".Cat").style.right="9px"
         document.querySelector(".Cat").style.top="52px"
+        document.querySelector(".Cat").style.display="inline-block";
     }
     else if(hour>18 || hour<6){
         document.getElementById("cat").src="./assets/cat-roll.gif";
